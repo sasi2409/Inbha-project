@@ -1,0 +1,12 @@
+def formula(list1):
+    for x in list1:
+        print(x)
+    
+c=0
+print("Enter the txt: ")
+while c==0:
+    Array=[int(x) for x in input().split()]
+    if not Array:
+        c+=1 
+    else:
+        formula(Array)
